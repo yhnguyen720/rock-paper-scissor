@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title> Rock Paper Scissor </title>
+</head>
+
+<body>
+    <div class="box has-text-centered">
+        <div>
+            <h1> Rock, Paper, Scissor! </h1>
+            <br>
+            <button class="button is-link" id="play">Play</button>
+        </div>
+        <br>
+        <div id="game" class="hide">
+            <div class="columns">
+                <div class="column">
+                    <p> player plays </p>
+                    <p id="player-choice" class="has-text-link has-text-weight-bold"></p>
+                </div>
+                <div class="column">
+                    <p> computer plays </p>
+                    <p id="computer-choice" class="has-text-link has-text-weight-bold"> </p>
+                </div>
+            </div>
+            <div>
+                <p id="result" class="has-background-link-light has-text-link has-text-weight-bold"></p>
+            </div>
+        </div>
+        <br>
+        <div id="score" class="hide">
+            <div class="columns">
+                <div class="column">
+                    <p>player points: <span id="player-score" class="has-text-link has-text-weight-bold"></span></p> 
+                </div>
+                <div class="column">
+                    <p>computer points: <span id="computer-score" class="has-text-link has-text-weight-bold"></span></p>
+                </div>
+                <div class="column">
+                    <p>ties: <span id="ties" class="has-text-link has-text-weight-bold"></span></p>
+                </div>
+            </div>
+            <br>
+            <button class="button is-link" id="clear">Clear Scores</button> 
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="./build/script.js"></script>
+</html>
