@@ -1,0 +1,33 @@
+body {
+    font-family: 'Tangerine', serif;
+  }
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+   
+}
+
+.hide {
+    visibility:hidden
+}
+
+#result {
+    width: 50%;
+    margin: auto;
+}
+
+.box {
+    border: 20px;
+    border-style: double;
+    border-color: #174287;
+}
