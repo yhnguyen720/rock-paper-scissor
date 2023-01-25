@@ -11,10 +11,7 @@ p {
 }
 
 .box {
-    width: 50%;
-    margin: auto;
-    margin-top: 5%;
-   
+    margin: 5% 5%
 }
 
 .hide {
